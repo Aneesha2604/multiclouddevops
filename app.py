@@ -6,7 +6,7 @@ todo_list = {}
 # Function to display the to-do list
 def show_tasks():
     if not todo_list:
-        print("Your to-do list is empty!")
+        print("Your to-do list is not empty!")
     else:
         print("Your To-Do List:")
         for task_id, task in todo_list.items():
