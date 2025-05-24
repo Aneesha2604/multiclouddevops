@@ -16,7 +16,7 @@ def show_tasks():
 def add_task(task):
     task_id = len(todo_list) + 1
     todo_list[task_id] = task
-    print(f"Added task: {task}")
+    print(f"Added task: {New task}")
 
 # Function to remove a task
 def remove_task(task_id):
